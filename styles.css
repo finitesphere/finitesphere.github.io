@@ -6,13 +6,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Allows the body to grow based on content */
-  overflow-x: hidden; /* Prevents horizontal overflow, but allows vertical scrolling */
+  min-height: 100vh; 
+  overflow-x: hidden; 
 }
 
 .container {
   text-align: center;
-  padding-bottom: 20px; /* Adds space at the bottom for better spacing */
+  padding-bottom: 20px; 
 }
 
 .content {
@@ -85,7 +85,6 @@ body {
   color: #aaa;
 }
 
-/* Project-specific styles */
 .project-list {
   max-width: 800px;
   width: 100%;
@@ -149,7 +148,6 @@ body {
   color: #000;
 }
 
-/* Blog-specific styles */
 .blog-list {
   margin: 20px 0;
   display: flex;
@@ -160,11 +158,11 @@ body {
 .blog-entry {
   display: flex;
   justify-content: space-between;
-  width: 60%; /* Adjust width as needed */
+  width: 60%; 
   margin-bottom: 10px;
-  align-items: center; /* Ensures both title and date are aligned vertically */
-  white-space: nowrap; /* Prevents title and date from wrapping */
-  gap: 10px; /* Adds space between circle and title */
+  align-items: center; 
+  white-space: nowrap; 
+  gap: 10px; 
 }
 
 .blog-title {
@@ -173,34 +171,33 @@ body {
   color: white;
   text-decoration: none;
   display: inline-block;
-  white-space: nowrap; /* Prevents title from wrapping */
+  white-space: nowrap; 
   font-family: serif;
-  text-transform: uppercase; /* Makes the title always uppercase */
+  text-transform: uppercase; 
 }
 
-/* Only show circles on the writings page */
 .writings-page .blog-title::before {
   content: '';
-  width: 10px; /* Adjusted circle width */
-  height: 10px; /* Adjusted circle height */
+  width: 10px; 
+  height: 10px; 
   border-radius: 50%;
   border: 2px solid white;
   display: inline-block;
   margin-right: 10px;
-  vertical-align: middle; /* Centers the circle with the title text */
+  vertical-align: middle; 
   transition: background-color 0.3s ease;
 }
 
 .writings-page .blog-title:hover::before {
-  background-color: white; /* Circle fills with white color on hover */
+  background-color: white; 
 }
 
 .blog-date {
   font-size: 0.9em;
   color: #aaa;
-  white-space: nowrap; /* Ensures date doesn’t wrap */
+  white-space: nowrap; 
   font-family: serif;
-  text-transform: uppercase; /* Makes the date always uppercase */
+  text-transform: uppercase; 
 }
 
 .blog-container {
@@ -219,12 +216,12 @@ body {
 }
 
 .blog-content p {
-  margin-bottom: 10px; /* You can adjust this value */
+  margin-bottom: 10px; 
 }
 
 .blog-content p strong {
   display: block;
-  margin-bottom: -10px; /* Reduces the space after the question */
+  margin-bottom: -10px; 
 }
 
 .contact-section {
@@ -244,15 +241,13 @@ body {
   text-decoration: underline;
 }
 
-/* Blog image styling */
 .blog-image {
-  width: 50%; /* Adjust this value to control the width */
-  height: auto; /* Maintain aspect ratio */
+  width: 50%; 
+  height: auto; 
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
-/* Responsive adjustments */
 @media (max-width: 600px) {
   .content {
     flex-direction: column;
@@ -294,7 +289,6 @@ body {
     max-width: 90%;
     overflow: hidden;
   }
-
   .project-image {
     display: none;
   }
