@@ -3,30 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finite Sphere</title>
-    <link rel="icon" type="image/png" href="images/favicon-48x48.png" sizes="48x48"/>
+    <title>Finitesphere</title>
+    <link rel="icon" type="image/png" href="images/fs-logo.svg" sizes="48x48"/>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <script src="fallback.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="content">
-            <div class="text-container">
-                <div class="text">FINITE SPHERE</div>
-                <div class="nav-bar">
-                    <a class="nav-link" href="writings.html" tabindex="0">WRITINGS</a>
-
-                    <a class="nav-link" href="projects.html" tabindex="0">PROJECTS</a>
-                </div>
-            </div>
             <div class="canvas-container">
-                <div id="static-sphere" style="display: none;">
+                <div id="static-sphere" class="underline" style="display: none;">
                     <svg width="300" height="300" viewBox="0 0 100 100">
                         <circle cx="50" cy="50" r="48" stroke="white" stroke-width="2" fill="none" />
-                        <circle cx="50" cy="50" r="40" stroke="white" stroke-width="2" fill="none" />
-                        <circle cx="50" cy="50" r="30" stroke="white" stroke-width="2" fill="none" />
-                        <circle cx="50" cy="50" r="20" stroke="white" stroke-width="2" fill="none" />
-                        <circle cx="50" cy="50" r="10" stroke="white" stroke-width="2" fill="none" />
+                        <circle cx="50" cx="50" r="40" stroke="white" stroke-width="2" fill="none" />
+                        <circle cx="50" cx="50" r="30" stroke="white" stroke-width="2" fill="none" />
+                        <circle cx="50" cx="50" r="20" stroke="white" stroke-width="2" fill="none" />
+                        <circle cx="50" cx="50" r="10" stroke="white" stroke-width="2" fill="none" />
                         <line x1="10" y1="50" x2="90" y2="50" stroke="white" stroke-width="2" />
                         <line x1="50" y1="10" x2="50" y2="90" stroke="white" stroke-width="2" />
                     </svg>
@@ -34,6 +27,121 @@
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
                 <script src="script.js"></script>
             </div>
+        </div>
+        <section id="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Connor</h2>
+                    <p class="role">Software Developer</p>
+                    <p>Fan of all things technology. I am always looking for something new to learn. Follower of the UNIX philosophy.</p>
+                    <ul class="contact-list">
+                        <li>
+                            <a href="https://instagram.com/finitesphere" target="_blank">
+                                <img src="images/instagram.svg" alt="Instagram" class="contact-icon"> @finitesphere
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:finitesphere@proton.me">
+                                <img src="images/email.svg" alt="Email" class="contact-icon"> finitesphere@proton.me
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/finitesphere" target="_blank">
+                                <img src="images/linkedin.svg" alt="LinkedIn" class="contact-icon"> /finitesphere
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>What I work with</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <img src="images/python.svg" alt="Python" class="skill-icon"> Python
+                </div>
+                <div class="skill-item">
+                    <img src="images/java.svg" alt="Java" class="skill-icon"> Java
+                </div>
+                <div class="skill-item">
+                    <img src="images/c.svg" alt="C" class="skill-icon"> C
+                </div>
+                <div class="skill-item">
+                    <img src="images/html.svg" alt="HTML" class="skill-icon"> HTML
+                </div>
+                <div class="skill-item">
+                    <img src="images/js.svg" alt="JavaScript" class="skill-icon"> JavaScript
+                </div>
+                <div class="skill-item">
+                    <img src="images/css.svg" alt="CSS" class="skill-icon"> CSS
+                </div>
+                <div class="skill-item">
+                    <img src="images/react.svg" alt="React" class="skill-icon"> React
+                </div>
+                <div class="skill-item">
+                    <img src="images/mongodb.svg" alt="MongoDB" class="skill-icon"> MongoDB
+                </div>
+                <div class="skill-item">
+                    <img src="images/gdscript.svg" alt="GDScript" class="skill-icon"> GDScript
+                </div>
+                <div class="skill-item">
+                    <img src="images/git.svg" alt="Git" class="skill-icon"> Git
+                </div>
+                <div class="skill-item">
+                    <img src="images/bash.svg" alt="Bash" class="skill-icon"> Bash
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/myfavslist.png" alt="Project 1 Image" class="project-image">
+                    <div class="project-info">
+                        <h2 class="project-title">MYFAVSLIST</h2>
+                        <p class="project-description">A website that allows users to create a profile where they can list their favorite media.</p>
+                        <div class="project-tech">
+                            <img src="images/html.svg" alt="HTML" class="tech-icon">
+                            <img src="images/css.svg" alt="HTML" class="tech-icon">
+                            <img src="images/js.svg" alt="HTML" class="tech-icon">
+                            <img src="images/mongodb.svg" alt="MongoDB" class="tech-icon">
+                        </div>
+                        <a href="https://myfavslist.com" target="_blank" class="project-link">View on myfavslist.com</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/gnome-conquest.png" alt="Project 1 Image" class="project-image">
+                    <div class="project-info">
+                        <h2 class="project-title">GNOME CONQUEST</h2>
+                        <p class="project-description">A hexagon grid-based game where you play as a Gnome on a quest to reclaim gems stolen by Goblins.</p>
+                        <div class="project-tech">
+                            <img src="images/gdscript.svg" alt="GDScript" class="tech-icon">
+                        </div>
+                        <a href="https://finitesphere.itch.io/gnome-conquest" target="_blank" class="project-link">View on itch.io</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/logous.png" alt="Project 1 Image" class="project-image">
+                    <div class="project-info">
+                        <h2 class="project-title">LOGOUS</h2>
+                        <p class="project-description">A simple python script that allows you to create log posts via the CLI.</p>
+                        <div class="project-tech">
+                            <img src="images/python.svg" alt="Python" class="tech-icon">
+                            <img src="images/git.svg" alt="MongoDB" class="tech-icon">
+                        </div>
+                        <a href="https://github.com/finitesphere/logous" target="_blank" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>I may not have formal industry experience, but I've spent over 5 years programming and experimenting with technology, developing a deep passion for the field.</p>
+        </section>
+        <div class="contact-section">
+            <p>
+                <a href="mailto:finitesphere@proton.me">finitesphere@proton.me</a>
+            </p>
         </div>
     </div>
 </body>
