@@ -388,6 +388,18 @@ section h2 {
   height: 30px;
 }
 
+.archived {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.archived .archived-note {
+  font-style: italic;
+  color: #ff6666;
+  margin-top: 5px;
+}
+
+
 /* mobile */
 @media (max-width: 600px) {
   .container {
