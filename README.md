@@ -1,4 +1,4 @@
 My personal website :)
 
 # TO DO
-- [ ] Add Github profile to bio
+- [X] Add Github profile to bio
